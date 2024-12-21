@@ -1,6 +1,10 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "import/no-anonymous-default-export": "off"
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }

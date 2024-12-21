@@ -69,10 +69,10 @@ import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 import { ChangeEvent, useState } from 'react'
 
-export const meta: Metadata = {
-  title: 'Saas UI Landingspage',
-  description: 'Free SaaS landingspage starter kit',
-}
+// export const meta: Metadata = {
+//   title: 'Saas UI Landingspage',
+//   description: 'Free SaaS landingspage starter kit',
+// }
 
 const Home: NextPage = () => {
   return (
